@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script&subset=cyrillic);
+
+;
+
+.null-border{
+	border-radius: 0 !important;
+}
+.null-margin {
+	margin-bottom: 0 !important;
+}
+header {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+hr {
+	border-top: 2px solid #9a9696 !important;
+}
+.alert {
+	font-size:20px !important;
+	font-family: 'Roboto', sans-serif !important;
+	padding:5px !important;
+}
+html {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+p {
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 18px;
+}
+body {
+		background-image: url(background2.jpg);
+	background-repeat: repeat-x;
+	font-family: 'Roboto', sans-serif !important;
+	min-height: 100%;
+	height: 100%;
+	
+	margin-bottom:60px;
+}
+.leftMenuStaff {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+
+			padding-top: 10px;
+
+			width:15%;
+
+			
+
+
+}
+.col-xs-12 > .leftMenuStaff{
+	padding-bottom: 130px;
+}
+.leftMenuStaff ul li {
+
+	background-color: #f8f8f8;
+
+}
+.leftMenuStaff  li {
+
+	border-radius: 0px !important;
+		border-color: #e7e7e7;
+		border-bottom: 3px;
+
+}
+a .leftMenuStaff {
+	color: black;
+
+}
+.content {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #e7e7e7;
+	font-size: 18px;
+	padding-top: 10px;
+	
+}
+.text11 {
+	display: block;
+
+}
+
+.img-staff{
+	border-radius:16px;
+	margin-right: 10px;
+	height: 180px;
+	float: left;
+	width: 130px;
+	margin-left: 10%;
+}
+
+.text2 {
+	display: none;
+}
+.backContent {
+		margin-top: 10px;
+		margin-left: 20%;
+		padding-top: 10px;
+	
+}
+.backContent h3{
+		margin-top: 0px;	
+}
+.text1 img {
+	margin-bottom:2%;
+}
+.staffTop1 {
+	height: 240px;
+}
+.staffTop2 {
+	height: 240px;
+}
+h2 {
+	margin-left: 0;
+	margin-top: 0 !important;
+}
+.staff-list1 {
+	padding-left: 15px;
+}
+.staff-list2 {
+	padding-left: 15px;
+	display: inline-block;
+}
+.row .staff-list2 {
+	margin-left: 0px;
+}
+.nav-pills>li>a {
+	border-radius: 0px !important;
+	color: black;
+	font-size: 16px;
+
+}
+.contentStaff {
+	background-color: #e7e7e7;
+
+}
+h3 {
+		margin-top: 0 !important;
+
+}
+.histContent {
+	height: 100%;
+	font-size: 18px;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #e7e7e7;
+
+
+}
+.histContent h4 {
+	margin-top: 0px;
+
+}
+.imgCenterDiv {
+			text-align: center;
+}
+
+
+
+.mediaMain {
+		background: url('mediaBackground2.jpg') no-repeat center top fixed;
+		display: block;
+		min-height: 75%;
+
+}
+.leftMenuMedia{
+	padding-right: 0px !important;
+			padding-top: 10px;
+
+			width:15%;
+
+}
+.mediaContentVideo{
+	display: none;
+	padding-top: 10px;
+}
+
+
+
+.mediaContentPhoto{
+    text-align: center;
+
+	padding-top: 10px;
+}
+#box-container {
+	padding-left: 10px;
+}
+#thumbs {
+	margin-left: 30%;
+}
+.leftMenuMedia > ul {
+	padding-left: 10px;
+	padding-right:10px;
+}
+.leftMenuMedia ul li {
+
+	background-color: #f8f8f8;
+
+}
+.leftMenuMedia  li {
+
+	border-radius: 0px !important;
+		border-color: #e7e7e7;
+		border-bottom: 3px;
+
+}
+a .leftMenuMedia {
+	color: black;
+}
+.showButton {
+	display: none !important;
+
+}
+
+
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	position: absolute;
+}
+a.backToTop {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	left: 20px;
+	bottom: 40px;
+	border-radius: 50%;
+	background: #27AE61 url("up-arrow.png") no-repeat center 43%;
+
+}
+.contentInfoIndex {
+	background-color: #e7e7e7;
+}
+.contentInfoIndex li {
+	font-size: 18px;
+}
+.box {
+	width: 33%;
+	margin: 0;
+	display: inline;
+	padding-bottom: 5px;
+}
+.box img {
+	padding-bottom: 5px;
+}
+.row {
+	margin-right: 0px !important;
+}
+#footer {
+	position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.container .text-muted {
+    margin: 20px 0 0 0;
+    text-align: right;
+}
+section#example.containerMed {
+
+}
+.btns-albums {
+	margin-left: 25%;
+	padding-top: 10px;
+
+	padding-bottom: 2%;
+}
+.infoMedia {
+	font-family: 'Bad Script', cursive;
+	margin-top: 20px;
+	line-height: 1.9;
+	padding-left: 10px;
+}
+.moreRes {
+	background-color: #eee;
+	padding-bottom: 15px;
+}
+.socialButtons {
+	padding-left: 85%;
+	padding-bottom: 15px;
+}

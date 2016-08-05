@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>THE GREAT PAGE</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+<header>
+	<h1>Государственное учреждение образования «Ясли-сад №44 г.Бреста»</h1>
+	<br>
+	<h3>Смысл нашей работы создать уют и комфорт окружающей среды, и гармонию чувств внутреннего мира ребенка.</h3>
+	<nav class="navbar navbar-default null-border null-margin" role="navigation">
+		<div class="container-fluid">
+	    	<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>                   
+	            </button>  		
+	      		<a class="navbar-brand" href="index.html">Главная</a>
+	    	</div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    	<ul class="nav navbar-nav">
+		      		<li class="active"><a href="staff.html">Сотрудники</a></li>
+		      		<li><a href="inform.html">Информация для родителей</a></li> 
+		     		<li ><a href="history.html">История</a></li> 
+		     		<li><a href="media.html">Фото и видео</a></li> 
+		    	</ul>
+		    	<ul class="nav navbar-nav navbar-right">
+		      		<li><a href="contacts.html"><span></span>Контакты</a></li>
+		   		</ul>
+	   		</div>
+  		</div>
+	</nav>
+	
+</header>
+<div class="contentStaff">
+<h2 class="text-center"> Это прекрасные люди, всей душою и сердцем любящие детей, талантливые, творческие личности.</h2>
+	
+	<div class="leftMenuStaff col-xs-12 col-md-2 col-lg-2 col-sm-3">
+			<ul class="nav nav-pills nav-stacked">
+					<li class="topStaff text-center" role="presentation" class="active"><a href="#" class="stuff-show">Руководство</a></li>
+					<li class="lowStaff text-center" role="presentation"><a href="#">Воспитатели</a></li>
+					<li class="text-center" role="presentation"><a href="#">Другие работники</a></li>
+			</ul>
+		</div>
+		<div class="backContent  col-md-offset-2 col-xs-offset-0 col-lg-offset-2 col-sm-offset-3">
+			<div class="text1">
+				<div class="row staff-list1" >
+				</div>
+			</div>
+			<div class="text2">
+				<div class="row staff-list2" >
+				</div>
+			</div>
+			<script src="dom.js"></script>
+				
+		</div>	
+</div>
+<script type="text/javascript">
+	$('body').prepend('<a href="#" class="backToTop">Back to top</a>');
+
+	var amountScrolled = 300;
+
+	$(window).scroll(function() {
+		if ( $(window).scrollTop() > amountScrolled ) {
+			$('a.backToTop').fadeIn('slow');
+		} else {
+			$('a.backToTop').fadeOut('slow');
+		}
+	});
+
+	$('a.backToTop').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
+<div id="footer">
+<div class="container">
+<p class="text-muted">Разработка razMki (swatijke1@gmail.com) © 2016</p>
+</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html> 

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>THE GREAT PAGE</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<script src="src/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="src/css/swipebox.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<style>
+		style.css:
+.navbar-nav {
+float: none;
+text-align: center;
+}
+.navbar-nav li {
+float: none;
+display: inline-block;
+}
+	</style>
+</head>
+<body>
+<header>
+	<h1>Государственное учреждение образования «Ясли-сад №44 г.Бреста»	</h1>
+		<br>
+
+	<h3>
+		Смысл нашей работы создать уют и комфорт окружающей среды, и гармонию чувств внутреннего мира ребенка.
+	</h3>
+	<nav class="navbar navbar-default null-border null-margin" role="navigation">
+		<div class="container-fluid">
+	    	<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>                   
+	            </button>  		
+	      		<a class="navbar-brand" href="index.html">Главная</a>
+	    	</div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+		    	<ul class="nav navbar-nav">		      		
+		      		<li><a href="staff.html">Сотрудники</a></li>
+		      		<li><a href="#">Информация для родителей</a></li> 
+		     		<li><a href="history.html">История</a></li> 
+		     		<li class="active"><a href="media.html">Фото и видео</a></li> 
+		    	</ul>
+		    	<ul class="nav navbar-nav navbar-right">
+		      		<li><a href="contacts.html"><span></span>Контакты</a></li>
+		   		</ul>
+	   		</div>
+  		</div>
+	</nav>
+	</header>
+	<div class="mediaMain row">
+	
+	<div class="leftMenuMedia col-xs-12 col-md-2 col-lg-2 col-sm-3">
+			<ul class="nav nav-pills nav-stacked">
+					<li class="topStaff text-center" role="presentation" class="active"><a href="#" class="stuff-show">Фото</a></li>
+					<li class="lowStaff text-center" role="presentation"><a href="#">Видео</a></li>
+			</ul>
+		</div>
+		<div class="imgCenterDiv h3arrow">
+			<h3 class="infoMedia">Для просмотра фотографий, щелкните по названию альбома</h3>
+			<img class='h3arrow' src="mediaImg/arrowDown.png" width="60px" height="100px">
+		</div>
+		
+
+				<div class="btns-albums imgCenterDiv col-md-offset-2 col-xs-offset-0 col-lg-offset-2 col-sm-offset-3">
+					  <button type="button" class="btn btn-default ourChilds">Наши воспитанники</button>
+					  <button type="button" class="btn btn-default talants">Талантливые артисты</button>
+					  <button type="button" class="btn btn-default party">Праздники</button>
+					  <button type="button" class="btn btn-default fiz">Физкультурные праздники</button>
+					  <button type="button" class="btn btn-default win">"Этот день Победы"</button>
+				</div>
+				<div class="mediaContentPhoto">
+					<script src="media.js"></script>
+				</div>
+	<script src="lib/ios-orientationchange-fix.js"></script>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script src="src/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
+
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+      });
+	</script>
+	
+	<div class="mediaContentVideo  col-md-10">
+		<script src="media.js"></script>
+	</div>
+	<script type="text/javascript">
+	$('body').prepend('<a href="#" class="backToTop">Back to top</a>');
+
+	var amountScrolled = 300;
+
+	$(window).scroll(function() {
+		if ( $(window).scrollTop() > amountScrolled ) {
+			$('a.backToTop').fadeIn('slow');
+		} else {
+			$('a.backToTop').fadeOut('slow');
+		}
+	});
+
+	$('a.backToTop').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
+</div>
+<div id="footer">
+<div class="container">
+<p class="text-muted">Разработка razMki (swatijke1@gmail.com) © 2016</p>
+</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>
